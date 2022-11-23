@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
         //triangleNumber();
-        //factorial.factorial();
+        //factorial.getFactorial();
         //primeNumbers.primeNumbers();
-        calculator.calculatorDouble();
+        //calculator.calculatorDouble();
         //equation.equality();
     }
 
