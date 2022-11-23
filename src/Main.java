@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 /**Вычислить n-ое треугольного число(сумма чисел от 1 до n), n! (произведение чисел от 1 до n)
@@ -9,12 +10,12 @@ import java.util.Scanner;
  *  что его нет.
 **/
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         //triangleNumber();
         //factorial.factorial();
         //primeNumbers.primeNumbers();
-        //calculator.calculator();
-        equation.equality();
+        calculator.calculatorDouble();
+        //equation.equality();
     }
 
     public static void triangleNumber(){
