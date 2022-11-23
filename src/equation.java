@@ -24,5 +24,6 @@ public class equation {
         if (!flag){
             System.out.println("Корней нет");
         }
+        scan.close();
     }
 }
